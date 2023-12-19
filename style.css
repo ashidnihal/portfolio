@@ -1,0 +1,293 @@
+*{
+    margin: 0;
+     padding: 0;
+     font-family: 'Exo 2', sans-serif;
+}
+.headlogo{
+    width: 72px;
+    height: 71px;
+    border-radius: 44px;
+    padding: 5px;
+    margin-left: 23px;
+
+}
+
+.header{
+    display: flex;
+    height: 79px;
+    width: 100%;
+}
+.head ul{
+    display: flex;
+    margin: 10px;
+    margin-left: 503px;
+}
+.head ul li a{
+    margin: 15px;
+    text-decoration: none;
+    color: white;
+}
+.head ul li a:hover{
+    text-decoration: underline;
+}
+.head{
+    height: 79px;
+    width: 100%;
+    background-color: #333333;
+    display: flex;
+}
+.headname{
+    margin: 25px;
+    color: white;
+}
+#banner{
+ 
+ 
+    width: 100%;
+    height: 220PX;
+    background-color: rgb(248, 247, 245);
+
+}
+.quote{
+    font-size: 37px;
+    padding: 71px;
+}
+.quote1{
+    margin-top: -62px;
+    margin-left: 1230px;
+    font-size: 24px;
+    color: black;
+}
+
+span{
+    margin-left: 25px;
+
+}
+.about{
+    background-color: rgb(248, 247, 245);;
+    height: 250px;
+    width: 100%;
+    display: flex;
+}
+.aboutimg img{
+    padding-left: 44px;
+    height: 85%;
+    width: 193px;
+    margin-top: 19px;
+}
+.aboutme p{
+
+    font-size: 20px;
+    margin: 51px;
+    margin-top: 100px;
+    color: rgb(17, 17, 17);
+}
+section {
+    background-color: rgb(248, 247, 245);;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+
+.project, ul, p {
+    color: #666;
+}
+
+.project, ul {
+    padding: 20px;
+}
+.container{
+    margin-left: 59px;
+    
+}
+.skills-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    
+}
+
+.skills-list li {
+    margin-right: 20px;
+    margin-bottom: 10px;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    
+    width: 100%;
+    
+}
+#contact{
+    display: flex;
+}
+.loca iframe{
+    height: 138px;
+    width: 414px;
+    margin-left: 636px;
+}
+@media screen and (max-width:400px){
+    body{
+        width: 400px;
+        margin: 0px;
+        padding: 0px;
+    }
+    .headlogo{
+        width: 60px;
+        height: 52px;
+    margin-top: 6px;
+        border-radius: 44px;
+        padding: 5px;
+        margin-left: 18px;
+    
+    }
+    
+    .header{
+        display: flex;
+        height: 79px;
+        width: 100%;
+    }
+    .head ul{
+        display: flex;
+        margin: 10px;
+        
+    }
+    .head ul li a{
+        font-size: 11px;
+        margin: 8px;
+        text-decoration: none;
+        color: white;
+        margin-left: 1px;
+        
+    }
+    .head ul li a:hover{
+        text-decoration: underline;
+    }
+    .head{
+        height: 79px;
+        width: 100%;
+        background-color: #333333;
+        display: flex;
+    }
+    .headname{
+        margin: 21px;
+        color: white;
+        font-size: 12px;
+        margin-top: 23px;
+    }
+    #banner{
+ 
+ 
+        width: 100%;
+        height: 111PX;
+        background-color: rgb(248, 247, 245);
+    
+    }
+    .quote{
+        
+        font-size: 15px;
+        padding: 29px;
+    }
+    .quote1{
+        margin-top: -49px;
+    margin-left: 261px;
+        font-size: 14px;
+        color: black;
+    }
+    span{
+        margin-left: 5px;
+    
+    }
+    .about{
+        background-color: rgb(248, 247, 245);;
+        height: 250px;
+        width: 100%;
+        display: flex;
+    }
+    .aboutimg img{
+        padding-left: 44px;
+    height: 45%;
+    width: 106px;
+    margin-top: 68px;
+    }
+    .aboutme p{
+    
+        font-size: 15px;
+        margin: 51px;
+        margin-top: 45px;
+        color: rgb(17, 17, 17);
+    }
+    section {
+        padding-top: 18px;
+        background-color: rgb(248, 247, 245);;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin-bottom: 18px;
+    }
+    
+    
+    .project, ul, p {
+        color: #666;
+        font-size: 15px;
+    }
+    
+    .project, ul {
+        padding: 20px;
+    }
+    .container{
+        margin-left: 47px;
+        
+    }
+    
+    .skills-list {
+        list-style-type: none;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    .skills-list li {
+        margin-right: 20px;
+        margin-bottom: 10px;
+        background-color: #f0f0f0;
+        padding: 10px;
+        border-radius: 4px;
+        font-size: 15px;
+        margin-top: 17px;
+        /* overflow: hidden;
+        width: 50%; */
+
+    }
+    #skills{
+        height: 499px;
+    }
+   
+    footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        width: 100%;
+        
+    }
+    #contact h2{
+        margin-bottom: 17px;
+        
+    }
+    .loca iframe{
+        margin-top: 25px;
+    height: 138px;
+    width: 341px;
+        margin-left: 36px;
+    }
+    #contact{
+        flex-direction: column;
+    }
+   
+
+}
